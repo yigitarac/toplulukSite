@@ -1,17 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+
 html {
     background-color: #0f172a;
     color: #94a3b8;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
     position: relative;
 }
 
+a {
+    text-decoration: none;
+}
+
 header {
-    position: sticky;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
     top: 0;
     background-color: #132347;
 }
- navbar {
-     display: flex;
- }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.navbar_sol {
+    cursor: pointer;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar_sol * {
+    padding: 0 2px;
+}
+
+.navbar h1 {
+    color: white;
+}
+
+.navbar_sol h1 {
+    display: inline;
+}
+
+.navbar_orta {
+    display: flex;
+    /* gap: 2rem; */
+}
+
+.navbar_orta a {
+    color: inherit;
+    display: inline-block;
+    padding: 0 20px;
+    transition: all 0.3s ease 0s;
+}
+
+.navbar_orta a:hover {
+    color: blue;
+}
+
+header button {
+    padding: 9px 25px;
+    background-color: rgba(15, 75, 195, 1);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+header button:hover {
+    background-color: rgba(15, 75, 195, 0.6);
+}
+
+hr {
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .bolum {
+    /* width: 60%; */
+    /* height: 50vh; */
+    padding-top: 122px;
+    padding-bottom: 122px;
+    display: grid;
+    align-items: center;
+}
 
 footer {
     background-color: #020617;
