@@ -204,10 +204,11 @@ footer .ana .orta .baglantilar {
 }
 .btn-mavi:hover {
     background-color: rgba(15, 75, 195, 0.6);
+    cursor: pointer;
 }
 .btn-devam {
     background-color: #0d9488;
-    cursor: default;
+    cursor: pointer;
 }
 .btn-pasif {
     background-color: #475569;
