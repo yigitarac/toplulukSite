@@ -59,7 +59,20 @@ header {
     color: blue;
 }
 
-header button {
+.tema-btn {
+    border: none;
+    background: none;
+    color: #94a3b8;
+    padding-right: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.navbar_sag .fa-regular.fa-moon {
+    display: none;
+}
+
+.instagram {
     padding: 9px 25px;
     background-color: rgba(15, 75, 195, 1);
     color: white;
@@ -70,7 +83,7 @@ header button {
     transition: all 0.3s ease 0s;
 }
 
-header button:hover {
+.instagram:hover {
     background-color: rgba(15, 75, 195, 0.6);
 }
 
