@@ -220,6 +220,11 @@ footer .ana .orta .baglantilar {
     width: 100%;
     overflow-x: auto;
     scroll-behavior: smooth;
+    -ms-overflow-style: none; /* IE ve Edge için */
+    scrollbar-width: none; /* Firefox için */
+}
+.kart-konteyner::-webkit-scrollbar { 
+    display: none; 
 }
 .ust .sag button {
     padding: 9px 25px;
@@ -246,13 +251,25 @@ footer .ana .orta .baglantilar {
     border: none;
     background-color: rgba(15, 75, 195, 1);
     color: white;
-    padding: 10px;
     cursor: pointer;
     z-index: 10;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #sol-kaydir {
     left: -20px;
 }
 #sag-kaydir {
     right: -20px;
+}
+.ust {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.etkinlikler {
+    min-width: 0; /* Grid'in sonsuza uzamasını engeller! */
+    width: 100%;
 }
