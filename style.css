@@ -127,7 +127,7 @@ footer .ana .orta {
     display: flex;
     flex-direction: column;
     justify-items: center;
-    align-items: center;
+    align-items: start;
 }
 
 footer .ana .orta .baglantilar {
