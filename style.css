@@ -160,3 +160,39 @@ footer .ana .orta .baglantilar {
     justify-content: space-between;
     align-items: center;
 }
+.etkinlik-karti {
+    background-color: #1e293b;
+    border-radius: 15px;
+    border: 1px solid #334155;
+    overflow: hidden;
+}
+.etkinlik-karti img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.kart-icerik {
+    padding: 20px;
+}
+.kart-icerik h3 {
+    color: white;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.kart-icerik p {
+    color: #94a3b8;
+    margin: 0;
+    line-height: 1.5;
+}
+.etkinlik-karti a {
+    display: block;
+    text-align: center;
+    padding: 12px;
+    margin: 0 20px 20px 20px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+.btn-mavi {
+    background-color: rgba(15, 75, 195, 1);
+}
