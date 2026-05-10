@@ -44,10 +44,6 @@ header {
     color: white;
 }
 
-.navbar_sol h1 {
-    display: inline;
-}
-
 .navbar_orta {
     display: flex;
 }
@@ -120,6 +116,11 @@ footer .ana div {
     flex-grow: 1;
     min-width: 25%;
 
+}
+
+footer .ana .sol .baslik {
+    display: flex;
+    align-items: center;
 }
 
 footer .ana .orta {
