@@ -50,7 +50,6 @@ header {
 
 .navbar_orta {
     display: flex;
-    /* gap: 2rem; */
 }
 
 .navbar_orta a {
@@ -94,7 +93,6 @@ main {
 }
 
 main .bolum {
-    /* height: 50vh; */
     width: 60%;
     padding-top: 122px;
     padding-bottom: 122px;
@@ -121,7 +119,6 @@ footer {
 footer .ana div {
     flex-grow: 1;
     min-width: 25%;
-    /* border: 1px solid gray; */
 
 }
 
@@ -131,6 +128,7 @@ footer .ana .orta {
     justify-items: center;
     align-items: center;
 }
+
 footer .ana .orta .baglantilar {
     display: flex;
     flex-direction: column;
@@ -160,6 +158,7 @@ footer .ana .orta .baglantilar {
     justify-content: space-between;
     align-items: center;
 }
+
 .etkinlik-karti {
     background-color: #1e293b;
     border-radius: 15px;
@@ -168,27 +167,31 @@ footer .ana .orta .baglantilar {
     display: flex;
     flex-direction: column;
     flex: 0 0 300px;
-
 }
+
 .etkinlik-karti img {
     width: 100%;
     height: 200px;
     object-fit: cover;
 }
+
 .kart-icerik {
     padding: 20px;
     flex-grow: 1;
 }
+
 .kart-icerik h3 {
     color: white;
     margin-top: 0;
     margin-bottom: 10px;
 }
+
 .kart-icerik p {
     color: #94a3b8;
     margin: 0;
     line-height: 1.5;
 }
+
 .etkinlik-karti a {
     display: block;
     text-align: center;
@@ -199,21 +202,26 @@ footer .ana .orta .baglantilar {
     text-decoration: none;
     transition: all 0.3s ease;
 }
+
 .btn-mavi {
     background-color: rgba(15, 75, 195, 1);
 }
+
 .btn-mavi:hover {
     background-color: rgba(15, 75, 195, 0.6);
     cursor: pointer;
 }
+
 .btn-devam {
     background-color: #0d9488;
     cursor: pointer;
 }
+
 .btn-pasif {
     background-color: #475569;
     cursor: not-allowed;
 }
+
 .kart-konteyner {
     display: flex;
     flex-wrap: nowrap;
@@ -224,9 +232,11 @@ footer .ana .orta .baglantilar {
     -ms-overflow-style: none; /* IE ve Edge için */
     scrollbar-width: none; /* Firefox için */
 }
+
 .kart-konteyner::-webkit-scrollbar { 
     display: none; 
 }
+
 .ust .sag button {
     padding: 9px 25px;
     background-color: rgba(15, 75, 195, 1);
@@ -237,13 +247,16 @@ footer .ana .orta .baglantilar {
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
+
 .ust .sag button:hover {
     background-color: rgba(15, 75, 195, 0.6);
 }
+
 .slider-alani {
     position: relative;
     width: 100%;
 }
+
 .kaydir-btn {
     position: absolute;
     top: 50%;
@@ -260,17 +273,21 @@ footer .ana .orta .baglantilar {
     align-items: center;
     justify-content: center;
 }
+
 #sol-kaydir {
     left: -60px;
 }
+
 #sag-kaydir {
     right: -60px;
 }
+
 .ust {
     margin-bottom: 30px;
     margin-top: 30px;
 }
+
 .etkinlikler {
-    min-width: 0; /* Grid'in sonsuza uzamasını engeller! */
+    min-width: 0;
     width: 100%;
 }

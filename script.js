@@ -4,13 +4,13 @@ const solButon = document.getElementById('sol-kaydir');
 const gecmisButon = document.getElementById('gecmis');
 const gelecekButon = document.getElementById('gelecek');
 const tumKartlar = document.querySelectorAll('.etkinlik-karti');
-let aktifFiltre = ""; 
+let aktifFiltre = "";
 
 sagButon.addEventListener('click', function() {
-    konteyner.scrollLeft += 330; 
+    konteyner.scrollLeft += 330;
 });
 solButon.addEventListener('click', function() {
-    konteyner.scrollLeft -= 330; 
+    konteyner.scrollLeft -= 330;
 });
 
 gecmisButon.addEventListener('click', function() {
@@ -18,7 +18,7 @@ gecmisButon.addEventListener('click', function() {
 
     if (aktifFiltre === "gecmis") {
         tumKartlar.forEach(kart => kart.style.display = 'flex');
-        aktifFiltre = ""; 
+        aktifFiltre = "";
     } else {
         tumKartlar.forEach(kart => {
             if (kart.classList.contains('gecmis-kart')) {
@@ -27,15 +27,15 @@ gecmisButon.addEventListener('click', function() {
                 kart.style.display = 'none';
             }
         });
-        aktifFiltre = "gecmis"; 
+        aktifFiltre = "gecmis";
     }
 });
 gelecekButon.addEventListener('click', function() {
-    konteyner.scrollLeft = 0; 
+    konteyner.scrollLeft = 0;
 
     if (aktifFiltre === "gelecek") {
         tumKartlar.forEach(kart => kart.style.display = 'flex');
-        aktifFiltre = ""; 
+        aktifFiltre = "";
     } else {
         tumKartlar.forEach(kart => {
             if (kart.classList.contains('gelecek-kart')) {
@@ -44,6 +44,6 @@ gelecekButon.addEventListener('click', function() {
                 kart.style.display = 'none';
             }
         });
-        aktifFiltre = "gelecek"; 
+        aktifFiltre = "gelecek";
     }
 });
