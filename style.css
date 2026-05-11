@@ -10,6 +10,15 @@ html {
     position: relative;
 }
 
+html.aydinlik {
+    background-color: rgb(241, 245, 249);
+    color: rgb(100, 116, 139);
+}
+
+.tema-btn .aydinlik {
+    display: none;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -19,12 +28,17 @@ h1 {
     color: white;
 }
 
+h1.aydinlik {
+    color: black;
+}
+
 header {
     position: fixed;
     width: 100%;
     z-index: 999;
     top: 0;
     background-color: #132347;
+    color: #94a3b8;
 }
 
 .navbar {
@@ -69,10 +83,6 @@ header {
     cursor: pointer;
 }
 
-.navbar_sag .fa-regular.fa-moon {
-    display: none;
-}
-
 .instagram {
     padding: 9px 25px;
     background-color: rgba(15, 75, 195, 1);
@@ -90,6 +100,10 @@ header {
 
 h2 {
     color: white;
+}
+
+h2.aydinlik {
+    color: black;
 }
 
 hr {
@@ -114,6 +128,16 @@ footer {
     background-color: #020617;
     display: flex;
     justify-content: center;
+}
+
+footer.aydinlik {
+    background-color: white;
+}
+footer.aydinlik a:hover {
+    color: rgba(15, 75, 195, 0.6);
+}
+footer.aydinlik h2, footer.aydinlik h4 {
+    color: black;
 }
 
 .footer {

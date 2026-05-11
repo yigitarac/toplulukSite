@@ -47,3 +47,29 @@ gelecekButon.addEventListener('click', function() {
         aktifFiltre = "gelecek";
     }
 });
+
+// Koyu - Aydınlık temalar arası geçiş
+
+function temaDegistir() {
+    let faSun = document.getElementsByClassName('fa-sun')[0];
+    let faMoon = document.getElementsByClassName('fa-moon')[0];
+    let html = document.getElementsByTagName('html')[0];
+    let footer = document.getElementsByTagName('footer')[0];
+    let h1 = document.getElementsByTagName('h1');
+    let h2 = document.getElementsByTagName('h2');
+    let a = document.getElementsByTagName('a');
+
+    faSun.classList.toggle('aydinlik');
+    faMoon.classList.toggle('aydinlik');
+    html.classList.toggle('aydinlik');
+    footer.classList.toggle('aydinlik');
+    for (let i = 1; i < h1.length; i++) {
+        h1[i].classList.toggle('aydinlik');
+    }
+    for (let i = 0; i < h1.length; i++) {
+        h2[i].classList.toggle('aydinlik');
+    }
+    for (let i = 0; i < h2.length; i++) {
+        a[i].classList.toggle('aydinlik');
+    }
+}
