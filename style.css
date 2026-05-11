@@ -334,3 +334,14 @@ footer .ana .orta .baglantilar {
     min-width: 0;
     width: 100%;
 }
+
+.etkinlik-karti.aydinlik {
+    background-color: white;
+    border: 1px solid #cbd5e1;
+}
+.etkinlik-karti.aydinlik .kart-icerik h3 {
+    color: black;
+}
+.etkinlik-karti.aydinlik .kart-icerik p {
+    color: #475569;
+}
