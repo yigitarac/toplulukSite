@@ -58,6 +58,7 @@ function temaDegistir() {
     let h1 = document.getElementsByTagName('h1');
     let h2 = document.getElementsByTagName('h2');
     let a = document.getElementsByTagName('a');
+    let kartlar = document.getElementsByClassName('etkinlik-karti');
 
     faSun.classList.toggle('aydinlik');
     faMoon.classList.toggle('aydinlik');
@@ -71,5 +72,8 @@ function temaDegistir() {
     }
     for (let i = 0; i < h2.length; i++) {
         a[i].classList.toggle('aydinlik');
+    }
+    for (let i = 0; i < kartlar.length; i++) {
+        kartlar[i].classList.toggle('aydinlik');
     }
 }
