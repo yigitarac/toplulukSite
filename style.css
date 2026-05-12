@@ -97,6 +97,7 @@ html.aydinlik header {
     font-size: 14px;
     cursor: pointer;
     padding: 8px;
+    transition: all 0.3s ease 0s;
 }
 
 .instagram {
