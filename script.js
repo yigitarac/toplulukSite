@@ -70,7 +70,7 @@ function temaDegistir() {
     faMoon.classList.toggle('aydinlik');
     html.classList.toggle('aydinlik');
     footer.classList.toggle('aydinlik');
-    for (let i = 1; i < h1.length; i++) {
+    for (let i = 0; i < h1.length; i++) {
         h1[i].classList.toggle('aydinlik');
     }
     for (let i = 0; i < h1.length; i++) {

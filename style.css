@@ -45,6 +45,10 @@ header {
     color: #94a3b8;
 }
 
+html.aydinlik header {
+    background-color: white;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -138,7 +142,7 @@ footer.aydinlik {
     background-color: white;
 }
 footer.aydinlik a:hover {
-    color: rgba(15, 75, 195, 0.6);
+    color: blue;
 }
 footer.aydinlik h2, footer.aydinlik h4 {
     color: black;
