@@ -138,6 +138,10 @@ footer {
     justify-content: center;
 }
 
+footer a:hover {
+    color: blue;
+}
+
 footer.aydinlik {
     background-color: white;
 }
@@ -173,17 +177,12 @@ footer .ana .sol .baslik {
     align-items: center;
 }
 
-footer .ana .orta {
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: start;
+footer .ana .sol p {
+    width: 60%;
 }
 
-footer .ana .orta .baglantilar {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
+.footer {
+    margin-top: 25px;
 }
 
 .footer .baslik {
@@ -203,10 +202,22 @@ footer .ana .orta .baglantilar {
     display: inline;
 }
 
+footer .orta * {
+    margin: 12px 0px;
+}
+
+footer .sag * {
+    margin: 12px 0px;
+}
+
 .footer .alt {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+footer hr {
+    margin-top: 25px;
 }
 
 .etkinlik-karti {
