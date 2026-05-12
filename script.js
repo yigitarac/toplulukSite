@@ -65,11 +65,14 @@ function temaDegistir() {
     let a = document.getElementsByTagName('a');
     let kartlar = document.getElementsByClassName('etkinlik-karti');
     let popuplar = document.getElementsByClassName('popup-kutu');
+    let ikonlar = document.getElementsByClassName('ikon');
+    let altparagrafyazi = document.getElementsByClassName('alt-paragraf')[0];
 
     faSun.classList.toggle('aydinlik');
     faMoon.classList.toggle('aydinlik');
     html.classList.toggle('aydinlik');
     footer.classList.toggle('aydinlik');
+    altparagrafyazi.classList.toggle('aydinlik');
     for (let i = 0; i < h1.length; i++) {
         h1[i].classList.toggle('aydinlik');
     }
@@ -84,6 +87,9 @@ function temaDegistir() {
     }
     for (let i = 0; i < popuplar.length; i++) {
         popuplar[i].classList.toggle('aydinlik');
+    }
+    for (let i = 0; i < ikonlar.length; i++) {
+        ikonlar[i].classList.toggle('aydinlik');
     }
 }
 
