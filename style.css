@@ -210,6 +210,7 @@ footer .ana .orta .baglantilar {
 }
 
 .etkinlik-karti {
+    height: 450px;
     background-color: #1e293b;
     border-radius: 15px;
     border: 1px solid #334155;
@@ -384,6 +385,9 @@ footer .ana .orta .baglantilar {
 }
 .popup-kutu .fa-times:hover {
     color: white;
+}
+.popup-kutu.aydinlik .fa-times:hover {
+    color: #0f172a;
 }
 .popup-kutu.aydinlik {
     background-color: white;
