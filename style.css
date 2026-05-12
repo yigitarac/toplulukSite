@@ -431,11 +431,11 @@ footer .ana .orta .baglantilar {
     margin-bottom: 20px;
 }
 
-.sol {
+.hakkimdasol {
     flex: 1;
 }
 
-.sol h2 {
+.hakkimda-sol h2 {
     font-size: 20px;
 }
 
@@ -471,7 +471,7 @@ footer .ana .orta .baglantilar {
     font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
 }
 
-.sag {
+.hakkimda-sag {
     flex: 2;
     display: flex;
     justify-content: flex-end;
@@ -502,5 +502,5 @@ footer .ana .orta .baglantilar {
 }
 
 .alt-paragraf.aydinlik {
-    color: #8b9ab1;
+    color: #64748b;
 }
