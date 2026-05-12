@@ -108,3 +108,13 @@ carpilar.forEach(button => {
     popupIletisim.style.display = 'none';
     }
 });
+popupDetay.onclick = (event) => {
+    if (event.target === popupDetay) {
+        popupDetay.style.display = 'none';
+    }
+}
+popupIletisim.onclick = (event) => {
+    if (event.target === popupIletisim) {
+        popupIletisim.style.display = 'none';
+    }
+}
