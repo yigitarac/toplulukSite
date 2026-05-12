@@ -94,6 +94,15 @@ maviButonlar.forEach(button => {
     event.preventDefault();
     let baslik = button.getAttribute('data-baslik');
     let aciklama = button.getAttribute('data-aciklama');
+    let resimler = button.getAttribute('data-resimler');
+    let resimListesi = resimler.split(',');
+    let galeri = document.querySelector('.popup-galeri');
+    galeri.innerHTML = '';
+    resimListesi.forEach (resimYolu => {
+        let yeniResim = document.createElement('img');
+        yeniResim.src = resimYolu;
+        galeri.appendChild(yeniResim);
+    });
     document.getElementById('detay-baslik').innerText = baslik;
     document.getElementById('detay-aciklama').innerText = aciklama;
     popupDetay.style.display = 'flex';

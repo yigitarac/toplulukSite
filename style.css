@@ -362,7 +362,7 @@ footer .ana .orta .baglantilar {
     padding: 40px 30px;
     border-radius: 15px;
     width: 90%;
-    max-width: 500px;
+    max-width: 800px;
     position: relative;
     text-align: center;
     color: white;
@@ -382,4 +382,16 @@ footer .ana .orta .baglantilar {
     background-color: white;
     color: #0f172a;
     border: 1px solid #cbd5e1;
+}
+.popup-galeri {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+.popup-galeri img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    aspect-ratio: 16/9;
 }
