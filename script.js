@@ -92,6 +92,10 @@ function temaDegistir() {
 maviButonlar.forEach(button => { 
     button.onclick = (event) => {
     event.preventDefault();
+    let baslik = button.getAttribute('data-baslik');
+    let aciklama = button.getAttribute('data-aciklama');
+    document.getElementById('detay-baslik').innerText = baslik;
+    document.getElementById('detay-aciklama').innerText = aciklama;
     popupDetay.style.display = 'flex';
     }
 });
