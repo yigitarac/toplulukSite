@@ -82,3 +82,25 @@ function temaDegistir() {
         kartlar[i].classList.toggle('aydinlik');
     }
 }
+
+// Popup Menüler
+
+maviButonlar.forEach(button => { 
+    button.onclick = (event) => {
+    event.preventDefault();
+    popupDetay.style.display = 'flex';
+    }
+});
+devamButonlar.forEach(button => { 
+    button.onclick = (event) => {
+    event.preventDefault();
+    popupIletisim.style.display = 'flex';
+    }
+});
+carpilar.forEach(button => { 
+    button.onclick = (event) => {
+    event.preventDefault();
+    popupDetay.style.display = 'none';
+    popupIletisim.style.display = 'none';
+    }
+});
