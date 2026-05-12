@@ -4,6 +4,11 @@ const solButon = document.getElementById('sol-kaydir');
 const gecmisButon = document.getElementById('gecmis');
 const gelecekButon = document.getElementById('gelecek');
 const tumKartlar = document.querySelectorAll('.etkinlik-karti');
+const maviButonlar = document.querySelectorAll('.btn-mavi');
+const devamButonlar = document.querySelectorAll('.btn-devam');
+const popupDetay = document.getElementById('popup-detay');
+const popupIletisim = document.getElementById('popup-iletisim');
+const carpilar = document.querySelectorAll('.fa-times');
 let aktifFiltre = "";
 
 sagButon.addEventListener('click', function() {
