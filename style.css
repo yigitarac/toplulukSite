@@ -452,13 +452,13 @@ footer .ana .orta .baglantilar {
 }
 
 .ikon {
-    background-color: #111a33; 
-    width: 40px;               
-    height: 40px;              
-    border-radius: 12px;       
-    display: flex;             
-    justify-content: center;   
-    align-items: center;       
+    background-color: #111a33;
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .ikon.aydinlik {
@@ -480,14 +480,14 @@ footer .ana .orta .baglantilar {
 
 .resim img {
     margin-top: 30px;
-    width: 500px;        
-    height: auto;           
-    border-radius: 20px;     
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
     box-shadow: 0 10px 5px rgba(0,0,0,0.3);
     object-fit: cover;
-   object-position: center;
-   display: block;
-   aspect-ratio: 16/9;
+    object-position: center;
+    display: block;
+    aspect-ratio: 16/9;
 }
 .ikon:hover .material-symbols-outlined {
     color: #cbd5e1; 
