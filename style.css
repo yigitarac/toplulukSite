@@ -147,6 +147,27 @@ main .bolum {
     align-items: center;
 }
 
+#usteKaydirma {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    font-size: 18px;
+    z-index: 999;
+    border: none;
+    padding: 15px;
+    background-color: rgba(15, 75, 195, 1);
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+#usteKaydirma:hover {
+    background-color: rgba(15, 75, 195, 0.6);
+}
+
 footer {
     background-color: #020617;
     display: flex;
