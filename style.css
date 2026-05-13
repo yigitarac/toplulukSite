@@ -60,7 +60,7 @@ html.aydinlik header {
     display: grid;
     grid-template-columns: 1fr auto 1fr;
     align-items: center;
-    padding: 30px 10%;
+    padding: 10px 10%;
 }
 
 .navbar_sol {
@@ -145,8 +145,7 @@ main {
 
 main .bolum {
     width: 60%;
-    padding-top: 122px;
-    padding-bottom: 122px;
+    padding: 90px 0px;
     display: grid;
     align-items: center;
 }
