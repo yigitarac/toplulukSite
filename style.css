@@ -57,8 +57,8 @@ html.aydinlik header {
 }
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
     align-items: center;
     padding: 30px 10%;
 }
@@ -68,6 +68,7 @@ html.aydinlik header {
     font-size: 12px;
     display: flex;
     align-items: center;
+    justify-self: start;
 }
 
 .navbar_sol * {
@@ -76,6 +77,7 @@ html.aydinlik header {
 
 .navbar_orta {
     display: flex;
+    justify-self: center;
 }
 
 .navbar_orta a {
@@ -87,6 +89,10 @@ html.aydinlik header {
 
 .navbar_orta a:hover {
     color: blue;
+}
+
+.navbar_sag {
+    justify-self: end;
 }
 
 .tema-btn {
