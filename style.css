@@ -87,6 +87,10 @@ html.aydinlik header {
     transition: all 0.3s ease 0s;
 }
 
+html.aydinlik .navbar_orta a {
+    color: rgb(51, 65, 85);
+}
+
 .navbar_orta a:hover {
     color: blue;
 }
