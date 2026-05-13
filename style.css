@@ -20,16 +20,6 @@ html.aydinlik {
     color: rgb(100, 116, 139);
 }
 
-.tema-btn .aydinlik {
-    display: none;
-}
-
-.tema-btn:hover {
-    border-radius: 100%;
-    background-color: blue;
-    color: white;
-}
-
 a {
     text-decoration: none;
     color: inherit;
@@ -97,6 +87,10 @@ html.aydinlik .navbar_orta a {
 
 .navbar_sag {
     justify-self: end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 .tema-btn {
@@ -104,10 +98,20 @@ html.aydinlik .navbar_orta a {
     background: none;
     color: #94a3b8;
     padding-right: 10px;
-    font-size: 14px;
+    font-size: 20px;
     cursor: pointer;
-    padding: 8px;
+    padding: 9px;
     transition: all 0.3s ease 0s;
+}
+
+.tema-btn .aydinlik {
+    display: none;
+}
+
+.tema-btn:hover {
+    border-radius: 100%;
+    background-color: blue;
+    color: white;
 }
 
 .instagram {
