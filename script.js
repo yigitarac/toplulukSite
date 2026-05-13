@@ -1,3 +1,20 @@
+// Sayfanın en üstüne kaydırma butonu
+
+let usteKaydirmaBtn = document.getElementById('usteKaydirma');
+
+window.onscroll = function() {
+    if (document.body.scrollTop > 25 || document.documentElement.scrollTop > 25) {
+        usteKaydirmaBtn.style.display = 'block';
+    } else {
+        usteKaydirmaBtn.style.display = 'none';
+    }
+}
+
+function usteKaydir() {
+    document.body.scrollTop = 0;            // Webkit tabanlı tarayıcılar (örnek Safari)
+    document.documentElement.scrollTop = 0; // Firefox ve Chrome tabanlı tarayıcılar
+}
+
 const konteyner = document.querySelector('.kart-konteyner');
 const sagButon = document.getElementById('sag-kaydir');
 const solButon = document.getElementById('sol-kaydir');
