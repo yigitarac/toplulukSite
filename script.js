@@ -84,6 +84,8 @@ function temaDegistir() {
     let popuplar = document.getElementsByClassName('popup-kutu');
     let ikonlar = document.getElementsByClassName('ikon');
     let altparagrafyazi = document.getElementsByClassName('alt-paragraf')[0];
+    let etkinlikButon = document.getElementsByClassName('btn-etkgor');
+    let rozet = document.getElementsByClassName('rozet');
 
     faSun.classList.toggle('aydinlik');
     faMoon.classList.toggle('aydinlik');
@@ -107,6 +109,12 @@ function temaDegistir() {
     }
     for (let i = 0; i < ikonlar.length; i++) {
         ikonlar[i].classList.toggle('aydinlik');
+    }
+    for (let i = 0; i < etkinlikButon.length; i++) {
+        etkinlikButon[i].classList.toggle('aydinlik');
+    }
+    for (let i = 0; i < rozet.length; i++) {
+        rozet[i].classList.toggle('aydinlik');
     }
 }
 
