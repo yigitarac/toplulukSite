@@ -594,6 +594,9 @@ footer hr {
     margin-bottom: 30px;
     max-width: 800px;
 }
+html.aydinlik .hero-sol p {
+    color: rgb(100, 116, 139);
+}
 .hero-butonlar {
     display: flex;
     gap: 20px;
