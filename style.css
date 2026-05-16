@@ -559,3 +559,57 @@ footer hr {
 .alt-paragraf.aydinlik {
     color: #64748b;
 }
+
+/* Hero Bölümü */
+
+.rozet {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #132347;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.hero-sol h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+.vurgu {
+    color: #0f4bc3;
+}
+.hero-sol p {
+    color: #94a3b8;
+    line-height: 1.6;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.hero-butonlar {
+    display: flex;
+    gap: 20px;
+}
+.hero-sag img {
+    max-width: 450px;
+    width: 100%;
+}
+.hero-konteyner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-katil {
+    padding: 12px 25px;
+    background-color: rgba(15, 75, 195, 1);
+    color: white;
+    border-radius: 15px;
+    font-weight: bold;
+}
+.btn-etkgor {
+    padding: 12px 25px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid #94a3b8;
+    border-radius: 15px;
+    font-weight: bold;
+}
