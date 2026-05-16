@@ -566,15 +566,23 @@ footer hr {
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    background-color: #132347;
+    background-color: #1e293b;
     color: white;
     padding: 8px 16px;
     border-radius: 20px;
     margin-bottom: 20px;
+    white-space: nowrap;
+    width: fit-content;
 }
 .hero-sol h1 {
-    font-size: 48px;
+    font-size: 64px;
     margin-bottom: 15px;
+}
+.hero-sol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 .vurgu {
     color: #0f4bc3;
@@ -582,21 +590,22 @@ footer hr {
 .hero-sol p {
     color: #94a3b8;
     line-height: 1.6;
-    font-size: 18px;
+    font-size: 22px;
     margin-bottom: 30px;
+    max-width: 500px;
 }
 .hero-butonlar {
     display: flex;
     gap: 20px;
 }
 .hero-sag img {
-    max-width: 450px;
+    max-width: 600px;
     width: 100%;
 }
 .hero-konteyner {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 .btn-katil {
     padding: 12px 25px;
@@ -612,4 +621,23 @@ footer hr {
     border: 1px solid #94a3b8;
     border-radius: 15px;
     font-weight: bold;
+}
+#anasayfa {
+    min-height: 100vh;
+    align-items: center;
+    width: 80%;
+    padding-top: 100px;
+}
+.rozet.aydinlik {
+    background-color: #94a3b8;
+    color: #0f172a;
+
+}
+.btn-etkgor.aydinlik {
+    border-color: #0f172a;
+    color: #0f172a;
+}
+.btn-etkgor.aydinlik:hover {
+    background-color: #0f172a;
+    color: white;
 }
