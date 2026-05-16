@@ -592,7 +592,7 @@ footer hr {
     line-height: 1.6;
     font-size: 22px;
     margin-bottom: 30px;
-    max-width: 500px;
+    max-width: 800px;
 }
 .hero-butonlar {
     display: flex;
@@ -614,16 +614,8 @@ footer hr {
     border-radius: 15px;
     font-weight: bold;
 }
-.btn-etkgor {
-    padding: 12px 25px;
-    background-color: transparent;
-    color: white;
-    border: 1px solid #94a3b8;
-    border-radius: 15px;
-    font-weight: bold;
-}
 #anasayfa {
-    min-height: 100vh;
+    height: 100vh;
     align-items: center;
     width: 80%;
     padding-top: 100px;
@@ -631,7 +623,6 @@ footer hr {
 .rozet.aydinlik {
     background-color: #94a3b8;
     color: #0f172a;
-
 }
 .btn-etkgor.aydinlik {
     border-color: #0f172a;

@@ -110,9 +110,6 @@ function temaDegistir() {
     for (let i = 0; i < ikonlar.length; i++) {
         ikonlar[i].classList.toggle('aydinlik');
     }
-    for (let i = 0; i < etkinlikButon.length; i++) {
-        etkinlikButon[i].classList.toggle('aydinlik');
-    }
     for (let i = 0; i < rozet.length; i++) {
         rozet[i].classList.toggle('aydinlik');
     }
