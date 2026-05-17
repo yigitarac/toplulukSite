@@ -651,9 +651,7 @@ html.aydinlik .hero-sol p {
     padding: 15px 10px;
     cursor: pointer;
     font-weight: bold;
-}
-.sss-soru.fa-plus {
-    transition: transform 0.3s ease;
+    justify-content: space-between;
 }
 .sss-cevap {
     display: none;
