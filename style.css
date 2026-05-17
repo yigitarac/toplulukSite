@@ -635,3 +635,31 @@ html.aydinlik .hero-sol p {
     background-color: #0f172a;
     color: white;
 }
+
+/* SSS (Sıkça Sorulan Sorular) Bölümü */
+
+.sss-liste {
+    margin-top: 20px;
+    text-align: left;
+}
+.sss-sorucevap {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #334155;
+}
+.sss-soru {
+    display: flex;
+    padding: 15px 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.sss-soru.fa-plus {
+    transition: transform 0.3s ease;
+}
+.sss-cevap {
+    display: none;
+    color: #94a3b8;
+    padding: 0px 10px 15px 10px;
+}
+.sss-sorucevap.acik .sss-cevap{
+    display: block;
+}
